@@ -41,14 +41,3 @@ Este é um projeto de um site responsivo desenvolvido com **Next.js** e **React*
    ```bash
    http://localhost:3000
    ```
-
-## Funcionalidades
-
-- UseEffect
-- UseState
-- useNavigate
-- React Router Dom
-- Props
-- UUID
-- TailWind
-- Localstorage
