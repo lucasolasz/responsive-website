@@ -21,7 +21,7 @@ export function NavBar() {
         <li className="p-4">Contact</li>
       </ul>
       <div className="block md:hidden">
-        {!nav ? (
+        {nav ? (
           <AiOutlineClose
             size={20}
             className="cursor-pointer"
@@ -37,7 +37,7 @@ export function NavBar() {
       </div>
       <div
         className={
-          !nav
+          nav
             ? "fixed left-0 top-4 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 "
             : "fixed left-[-100%]"
         }
