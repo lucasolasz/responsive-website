@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Responsive Website
 
-## Getting Started
+Este é um projeto de um site responsivo desenvolvido com **Next.js** e **React**, utilizando **TailwindCSS** para estilização. O objetivo do projeto é criar uma interface moderna e responsiva com componentes reutilizáveis.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Navbar Responsiva**: Um menu de navegação que se adapta a diferentes tamanhos de tela.
+- **Hero Section**: Uma seção de destaque com animações de texto utilizando a biblioteca `react-typed`.
+- **Analytics Dashboard**: Uma seção que apresenta informações sobre análise de dados.
+- **Produtos**: Exibição de cartões de produtos com informações detalhadas.
+- **Newsletter**: Um formulário para inscrição em uma newsletter.
+- **Footer**: Um rodapé com informações adicionais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **React 19**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TailwindCSS**: Framework CSS para estilização rápida e responsiva.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **React Icons 5.5**: Biblioteca de ícones para React.
+- **React Typed 2.0**: Biblioteca para animações de texto digitado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como Executar o Projeto
 
-## Learn More
+1. Clone o repositório:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/seu-usuario/responsive-website.git
+   cd responsive-website
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Instale as dependências
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento
+   ```bash
+   npm run dev
+   ```
+4. Abra o navegador
+   ```bash
+   http://localhost:3000
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Funcionalidades
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- UseEffect
+- UseState
+- useNavigate
+- React Router Dom
+- Props
+- UUID
+- TailWind
+- Localstorage
